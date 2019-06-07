@@ -8,6 +8,18 @@
 	margin: 0 auto;
 	width: 80em;
 }
+/* 3786 */
+#footer .copyright {
+	color: #676d71;
+	font-size: 0.9em;
+	margin: 0 0 2em 0;
+	padding: 0;
+	text-align: center;
+}
+/* 3794 */
+#footer .copyright .icons {
+	margin: 2em 0 0 0;
+}
 
 @media screen and (max-width: 980px) {
 	/* 3808 */
