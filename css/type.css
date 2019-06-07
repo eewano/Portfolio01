@@ -1,0 +1,27 @@
+/* Type */
+/* 1587 */
+body {
+	background-color: #020b13;
+	color: #c0c2c4;
+}
+/* 1639 */
+a {
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	text-decoration: none;
+}
+/* 1659 */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	line-height: 1.5;
+	margin: 0 0 1em 0;
+	/* 1802 */
+	color: #ffffff;
+}
+/* 1665 */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: inherit;
+	text-decoration: none;
+}
