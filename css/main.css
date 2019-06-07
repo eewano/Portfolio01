@@ -1,6 +1,6 @@
 /* Reset */
 /* 13 */
-html, body, div, span, h1, a, ul, header, li, nav {
+html, body, div, span, h1, h3, a, ul, footer, header, li, nav {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -9,7 +9,7 @@ html, body, div, span, h1, a, ul, header, li, nav {
 	vertical-align: baseline;
 }
 /* 22 */
-header, menu, nav {
+footer, header, menu, nav {
 	display: block;
 }
 /* 26 */

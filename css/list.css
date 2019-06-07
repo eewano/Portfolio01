@@ -3,5 +3,24 @@
 ul {
 	list-style: disc;
 	margin: 0 0 2em 0;
-	padding-left: 1em;	
+	padding-left: 1em;
+}
+/* 2476 */
+ul.alt {
+	list-style: none;
+	padding-left: 0;
+}
+/* 2481 */
+ul.alt li {
+	border-top: solid 1px;
+	padding: 0.5em 0;
+}
+/* 2486 */
+ul.alt li:first-child {
+	border-top: 0;
+	padding-top: 0;
+}
+/* 2627 */
+ul.alt li {
+	border-top-color: rgba(255, 255, 255, 0.15);
 }
