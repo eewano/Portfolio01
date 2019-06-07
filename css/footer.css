@@ -1,0 +1,17 @@
+/* Footer */
+/* 3777 */
+#footer {
+	padding: 6em 0 4em 0;
+}
+/* 3781 */
+#footer > .inner {
+	margin: 0 auto;
+	width: 80em;
+}
+
+@media screen and (max-width: 980px) {
+	/* 3808 */
+	#footer > .inner {
+		width: 90%;
+	}
+}

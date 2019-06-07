@@ -1,0 +1,29 @@
+/* Flex */
+/* 2028 */
+.flex {
+	display: -ms-flexbox;
+	-ms-flex-pack: justify;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+}
+/* 2045 */
+.flex.flex-2, .flex.flex-3 {
+	-moz-align-items: stretch;
+	-webkit-align-items: stretch;
+	-ms-align-items: stretch;
+	align-items: stretch;
+}
+/* 2056 */
+.flex.flex-3 .col {
+	width: 31%;
+}
