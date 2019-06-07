@@ -1,0 +1,90 @@
+/* Header */
+/* 3369 */
+#header {
+	background: rgba(4, 22, 37, 0.75);
+	color: #c0c5c9;
+	cursor: default;
+	height: 3.25em;
+	left: 0;
+	line-height: 3.25em;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	width: 100%;
+	z-index: 10001;
+}
+/* 3383 */
+#header > h1 {
+	color: #ffffff;
+	display: inline-block;
+	height: inherit;
+	left: 1.25em;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+}
+/* 3403 */
+#header > h1 span {
+	font-weight: 300;
+	font-size: 0.8em;
+}
+/* 3408 */
+#header > a {
+	-moz-transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+	display: inline-block;
+	padding: 0 0.75em;
+	text-decoration: none;
+}
+/* 3419 */
+#header > a:hover {
+	color: #ffffff;
+}
+/* 3423 */
+#header > a[href="#menu"] {
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+/* 3428 */
+#header > a[href="#menu"]:before {
+	content: "temp";
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none !important;
+	/* 3438 */
+	margin: 0 0.5em 0 0;
+}
+/* 3448 */
+#header > a:last-child {
+	padding-right: 1.25em;
+}
+
+@media screen and (max-width: 736px) {
+	/* 3463 */
+	#header > a:last-child {
+		padding-right: 1.25em;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	/* 3475 */
+	#header {
+		height: 44px;
+		line-height: 44px;
+	}
+	/* 3480 */
+	#header > h1 {
+		left: 1em;
+	}
+	/* 3484 */
+	#header > h1 a {
+		font-size: 1em;
+	}
+}
