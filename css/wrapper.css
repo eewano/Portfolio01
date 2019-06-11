@@ -1,0 +1,46 @@
+/* Wrapper */
+/* 2792 */
+.wrapper {
+	padding: 6em 0 4em 0;
+	position: relative;
+}
+/* 2797 */
+.wrapper:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 0.35;
+	z-index: 1;
+}
+/* 2812 */
+.wrapper .inner {
+	margin: 0 auto;
+	width: 80em;
+	position: relative;
+	z-index: 99;
+}
+/* 2819 */
+.wrapper header {
+	margin-bottom: 4em;
+}
+
+@media screen and (max-width: 1280px) {
+	/* 3257 */
+	.wrapper > .inner {
+		width: 65em;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	/* 3265 */
+	.wrapper > .inner {
+		width: 90%;
+	}
+}

@@ -1,0 +1,52 @@
+/* Video */
+/* 3281 */
+.video {
+	background: rgba(255, 255, 255, 0.075);
+	border-radius: 4px;
+	margin: 0 0 2em 0;
+	overflow: hidden;
+	position: relative;
+}
+/* 3289 */
+.video img {
+	-moz-transition: -moz-transform 0.2s ease-in-out;
+	-webkit-transition: -webkit-transform 0.2s ease-in-out;
+	-ms-transition: -ms-transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out;
+}
+/* 3307 */
+.video .image {
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+/* 3313 */
+.video .image .arrow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+/* 3342 */
+.video .caption {
+	color: #c0c5c9;
+	padding: 1.5em;
+	font-size: 1.25em;
+	font-weight: 300;
+	margin: 0;
+}
+/* 3350 */
+.video .link {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	top: 0;
+	left: 0;
+}
+/* 3359 */
+.video .link span {
+	display: none;
+}

@@ -1,0 +1,27 @@
+/* Image */
+/* 2387 */
+.image {
+	border: 0;
+	display: inline-block;
+	position: relative;
+}
+/* 2393 */
+.image img {
+	display: block;
+}
+/* 2417 */
+.image.fit {
+	display: block;
+	/* margin: 0 0 2em 0; */
+	width: 100%;
+}
+/* 2423 */
+.image.fit img {
+	width: 100%;
+}
+/* Original */
+.icon_area {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
