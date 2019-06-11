@@ -23,6 +23,10 @@
 	-ms-align-items: stretch;
 	align-items: stretch;
 }
+/* 2052 */
+.flex.flex-2 .col {
+	width: 48%;
+}
 /* 2056 */
 .flex.flex-3 .col {
 	width: 31%;

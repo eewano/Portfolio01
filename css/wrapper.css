@@ -30,6 +30,24 @@
 .wrapper header {
 	margin-bottom: 4em;
 }
+/* 2831 */
+.wrapper.style1 {
+	background-color: #062038;
+	color: #c1c7cd;
+}
+/* 2852 */
+.wrapper.style1 h1,
+.wrapper.style1 h2,
+.wrapper.style1 h3,
+.wrapper.style1 h4,
+.wrapper.style1 h5,
+.wrapper.style1 h6 {
+	color: #ffffff;
+}
+/* 3015 */
+.wrapper.style1 header p {
+	color: #9ba6af;
+}
 
 @media screen and (max-width: 1280px) {
 	/* 3257 */
