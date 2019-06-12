@@ -14,6 +14,17 @@
 	-ms-transition: -ms-transform 0.2s ease-in-out;
 	transition: transform 0.2s ease-in-out;
 }
+/* 3296 */
+.video:hover img {
+	-moz-tranform: scale(1.075);
+	-webkit-transform: scale(1.075);
+	-ms-transform: scale(1.075);
+	transform: scale(1.075);
+}
+/* 3303 */
+.video:hover .image .arrow .icon_area {
+	color: white;
+}
 /* 3307 */
 .video .image {
 	margin: 0;
@@ -28,6 +39,16 @@
 	width: 100%;
 	height: 100%;
 	text-align: center;
+}
+/* 3331 */
+.video .image .arrow .icon_area {
+	-moz-transition: color 1s ease-in-out;
+	-webkit-transition: color 1s ease-in-out;
+	-ms-transition: color 1s ease-in-out;
+	transition: color 1s ease-in-out;
+	display: inline-block;
+	vertical-align: middle;
+	color: rgba(255, 255, 255, 0.5);
 }
 /* 3342 */
 .video .caption {
