@@ -20,3 +20,11 @@ ul.tab-list li a.active {
 	background: #aa14cc;
 	color: #ffffff !important;
 }
+/* 2695 */
+.tab.active {
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+}

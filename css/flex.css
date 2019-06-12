@@ -38,10 +38,26 @@
 	-ms-flex-wrap: nowrap;
 	flex-wrap: nowrap;
 }
+/* 2071 */
+.flex.flex-tabs ul {
+	width: 20%;
+}
+/* 2075 */
+.flex.flex-tabs .tabs {
+	width: 77%;
+}
 
 @media screen and (max-width: 980px) {
 	/* 2085 */
 	.flex.flex-tabs ul {
 		width: 30%;
+	}
+	/* 2089 */
+	.flex.flex-tabs .tabs {
+		width: 67%;
+	}
+	/* 2093 */
+	.flex.flex-tabs .flex-3 .col {
+		width: 48%;
 	}
 }
