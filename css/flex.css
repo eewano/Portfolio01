@@ -61,3 +61,31 @@
 		width: 48%;
 	}
 }
+
+@media screen and (max-width: 736px) {
+	/* 2101 */
+	.flex.flex-2 .col,
+	.flex.flex-3 .col,
+	.flex.flex-4 .col {
+		width: 100%;
+	}
+	/* 2105 */
+	.flex.flex-tabs {
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	/* 2112 */
+	.flex.flex-tabs ul {
+		width: 100%;
+	}
+	/* 2116 */
+	.flex.flex-tabs .tabs {
+		width: 100%;
+	}
+	/* 2120 */
+	.flex.flex-tabs .flex-3 .col {
+		width: 100%;
+	}
+}

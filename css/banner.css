@@ -73,3 +73,48 @@
 	width: 100%;
 	z-index: 1;
 }
+
+@media screen and (max-width: 1280px) {
+	/* 3715 */
+	#banner video {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	/* 3723 */
+	#banner {
+		min-height: 0;
+		height: auto !important;
+		padding: 4em 2em;
+	}
+	/* 3729 */
+	#banner .inner {
+		width: 100%;
+	}
+	/* 3733 */
+	#banner h1 {
+		font-size: 1.75em;
+		margin-bottom: 0.5em;
+		padding-bottom: 0;
+	}
+	/* 3739 */
+	#banner p {
+		font-size: 1.25em;
+	}
+	/* 3743 */
+	#banner br {
+		display: none;
+	}
+	/* 3747 */
+	#banner .button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	/* 3755 */
+	#banner p {
+		font-size: 1em;
+	}
+}

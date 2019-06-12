@@ -33,6 +33,18 @@ button.big,
 .button.big {
 	font-size: 1.35em;
 }
+
+@media screen and (max-width: 480px) {
+	/* 1932 */
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		padding: 0;
+	}
+}
+
 /* 1946 */
 input[type="submit"],
 input[type="reset"],

@@ -21,9 +21,23 @@
 	margin: 2em 0 1em 0;
 }
 
+@media screen and (max-width: 1280px) {
+	/* 3800 */
+	#footer > .inner {
+		width: 65em;
+	}
+}
+
 @media screen and (max-width: 980px) {
 	/* 3808 */
 	#footer > .inner {
 		width: 90%;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	/* 3816 */
+	#footer {
+		padding: 3em 0 1em 0;
 	}
 }

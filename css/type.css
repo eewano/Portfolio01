@@ -33,6 +33,20 @@ body, input, select, textarea {
 	}
 }
 
+@media screen and (max-width: 736px) {
+	/* 1625 */
+	body, input select, textarea {
+		font-size: 12pt;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	/* 1633 */
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+}
+
 /* 1639 */
 a {
 	-moz-transition: color 0.2s ease-in-out;
@@ -64,6 +78,21 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h2 {
 	font-size: 2.5em;
 }
+
+@media screen and (max-width: 736px) {
+	/* 1676 */
+	h2 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	/* 1684 */
+	h2 {
+		font-size: 1.5em;
+	}
+}
+
 /* 1690 */
 h3 {
 	font-size: 1.75em;

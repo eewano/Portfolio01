@@ -67,6 +67,15 @@
 }
 
 @media screen and (max-width: 736px) {
+	/* 3454 */
+	#header > a {
+		padding: 0 0.5em;
+	}
+	/* 3458 */
+	#header > a + a[href="#menu"]:last-child {
+		padding-left: 1em;
+		margin-left: 0.25em;
+	}
 	/* 3463 */
 	#header > a:last-child {
 		padding-right: 1.25em;
@@ -74,6 +83,10 @@
 }
 
 @media screen and (max-width: 980px) {
+	/* 3471 */
+	body {
+		padding-top: 44px;
+	}
 	/* 3475 */
 	#header {
 		height: 44px;
@@ -86,5 +99,12 @@
 	/* 3484 */
 	#header > h1 a {
 		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	/* 3492 */
+	#header {
+		min-width: 320px;
 	}
 }
