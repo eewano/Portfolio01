@@ -19,9 +19,3 @@
 .image.fit img {
 	width: 100%;
 }
-/* Original */
-.icon_area {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-}

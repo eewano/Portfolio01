@@ -50,6 +50,12 @@
 	vertical-align: middle;
 	color: rgba(255, 255, 255, 0.5);
 }
+/* Original */
+.icon_area {
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
 /* 3342 */
 .video .caption {
 	color: #c0c5c9;
