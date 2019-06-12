@@ -20,6 +20,11 @@ ul.tab-list li a.active {
 	background: #aa14cc;
 	color: #ffffff !important;
 }
+/* 2686 */
+ul.tab-list li a:hover {
+	background: #693dcc;
+	color: #ffffff !important;
+}
 /* 2695 */
 .tab.active {
 	display: -ms-flexbox;
