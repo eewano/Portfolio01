@@ -31,3 +31,17 @@
 .flex.flex-3 .col {
 	width: 31%;
 }
+/* 2064 */
+.flex.flex-tabs {
+	-moz-flex-wrap: nowrap;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 980px) {
+	/* 2085 */
+	.flex.flex-tabs ul {
+		width: 30%;
+	}
+}

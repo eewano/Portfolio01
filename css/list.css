@@ -5,6 +5,10 @@ ul {
 	margin: 0 0 2em 0;
 	padding-left: 1em;
 }
+/* 2472 */
+ul li {
+	padding-left: 0.5em;
+}
 /* 2476 */
 ul.alt {
 	list-style: none;

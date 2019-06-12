@@ -1,6 +1,6 @@
 /* Reset */
 /* 13 */
-html, body, div, span, h1, h3, p, a, img, ul, caption, footer, header, li, nav, section {
+html, body, div, span, h1, h2, h3, p, a, img, ul, li, caption, footer, header, nav, section {
 	margin: 0;
 	padding: 0;
 	border: 0;

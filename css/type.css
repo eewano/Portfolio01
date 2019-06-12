@@ -11,6 +11,28 @@ body, input, select, textarea {
 	font-weight: 300;
 	line-height: 1.65;
 }
+
+@media screen and (max-width: 1680px) {
+	/* 1601 */
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	/* 1609 */
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	/* 1617 */
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+}
+
 /* 1639 */
 a {
 	-moz-transition: color 0.2s ease-in-out;

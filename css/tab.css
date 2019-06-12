@@ -1,0 +1,22 @@
+/* Tab */
+/* 2665 */
+ul.tab-list {
+	list-style: none;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+/* 2671 */
+ul.tab-list li a {
+	background: rgba(255, 255, 255, 0.075);
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 0.5) !important;
+	margin-bottom: 0.5em;
+	padding: 0.5em 1em;
+	display: inline-block;
+	width: 100%;
+}
+/* 2681 */
+ul.tab-list li a.active {
+	background: #aa14cc;
+	color: #ffffff !important;
+}
